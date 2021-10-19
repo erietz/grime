@@ -14,15 +14,19 @@ ls | grime
 ```
 
 ```
-sudo find / | grime 3
+sudo find / | grime 2
 ```
 
 ```sh
-ps -A | grime
+ps -A | grime 3
 ```
 
 ```sh
-pacman -Qe | grime
+pacman -Qe | grime 4
+```
+
+```sh
+journalctl | grime 5
 ```
 
 ## Installation
