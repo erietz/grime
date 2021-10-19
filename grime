@@ -1,0 +1,20 @@
+#!/usr/bin/env python3
+
+import sys
+import time
+import argparse
+
+parser = argparse.ArgumentParser(description='Takes stdin and sends it to stdout more slowly')
+parser.add_argument(
+    'time',
+    nargs='?',
+    default=1,
+    type=float,
+    help='Amount of time in seconds',
+)
+
+args = parser.parse_args()
+
+for line in sys.stdin:
+    time.sleep(args.time)
+    sys.stdout.write(line)
