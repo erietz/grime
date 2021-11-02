@@ -33,4 +33,18 @@ journalctl | grime 5
 
 ## Installation
 
+### Arch
+
+`make install`
+
+### Debian
+
+`make install`
+
+### snap
+
+`make install`
+
+### macOS
+
 `make install`
