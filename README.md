@@ -2,6 +2,8 @@
 
 Puts grime into your pipes
 
+![Demo](./media/demo.gif)
+
 ## Features
 
 - Slow
